@@ -1,0 +1,12 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./phoenix-bootloader/Cargo.toml",
+        "./phoenix-kernel/Cargo.toml"
+    ],
+    "rust-analyzer.checkOnSave.allTargets": false,
+     "rust-analyzer.checkOnSave.extraArgs": [
+         "-Zbuild-std=core,alloc"
+    ],
+    "editor.formatOnSave": true,
+    
+}
